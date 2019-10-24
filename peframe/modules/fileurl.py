@@ -89,4 +89,4 @@ def get_result(filename, strings_match):
 		if not fuzzing_dict[key]:
 			del fuzzing_dict[key]
 	
-	return {"file":  filetype_dict, "url": url_list, "ip": ip_list, "fuzzing": fuzzing_dict, "dump": strings_list}
+	return {"file":  filetype_dict, "url": url_list, "ip": ip_list, "fuzzing": fuzzing_dict, "dump": strings_list, "string_count": len(strings_list)}
