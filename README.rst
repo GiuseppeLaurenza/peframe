@@ -4,6 +4,8 @@ peframe
 
 peframe is a open source tool to perform static analysis on `Portable Executable <http://en.wikipedia.org/wiki/Portable_Executable>`_ malware and generic suspicious file. It can help malware researchers to detect packer, xor, digital signature, mutex, anti debug, anti virtual machine, suspicious sections and functions, macro and much more information about the suspicious files.
 
+.. image:: https://www.paypalobjects.com/en_US/IT/i/btn/btn_donateCC_LG.gif
+   :target: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LWNAWQ9G6APU2
 
 Install
 -------
@@ -77,9 +79,15 @@ How to work
 
 Talk about...
 -------------
-
-
-  * `Multinomial malware classification, research of the Department of Information Security and Communication Technology (NTNU) <https://www.sciencedirect.com/science/article/pii/S1742287618301956>`_ *(SergiiBanin and Geir Olav Dyrkolbotn, Norway)*
+  * `A Longitudinal Analysis of Brazilian Financial Malware <https://www.lasca.ic.unicamp.br/paulo/papers/2020-TOPS-marcus.botacin-brazilian.bankers.pdf>`_ *(Federal University of Paraná, Marcus Botacin, Hojjat Aghakhani, Stefano Ortolani, Christopher Kruegel, Giovanni Vigna, Daniela Oliveira, Paulo Lício de Geus, André Grégio 2020)*
+  * `Building a smart and automated tool for packed malware detections using machine learning <https://dial.uclouvain.be/memoire/ucl/en/object/thesis%3A25193>`_ *(Ecole polytechnique de Louvain, Université catholique de Louvain, Minet, Jeremy; Roussieau, Julian 2020)*
+  * `Revealing Packed Malware <https://www.researchgate.net/publication/220496734_Revealing_Packed_Malware>`_ *(Department of Electrical and Computer Engineering, Nirwan Ansari, New Jersey Institute of Technology - NJIT)*
+  * `Critical Infrastructures Security: Improving Defense Against Novel Malware and Advanced Persistent Threats (PDF) <https://iris.uniroma1.it/retrieve/handle/11573/1362189/1359415/Tesi_dottorato_Laurenza.pdf>`_ *(Department of Computer, Control, and Management Engineering Antonio Ruberti, Sapienza – University of Rome)*
+  * `Anatomy on Malware Distribution Networks (PDF) <https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9057639>`_ *(Department of Intelligent Systems Engineering, Cheju Halla University, Jeju 63092, South Korea)*
+  * `Intel Owl 0.4.0 <https://github.com/certego/IntelOwl/releases/tag/0.4.0>`_ *(certego platform - threat intelligence data about a file, an IP or a domain)*
+  * `Integration of Static and Dynamic Analysis for Malware Family Classification with Composite Neural Network <https://www.groundai.com/project/integration-of-static-and-dynamic-analysis-for-malware-family-classification-with-composite-neural-network/>`_ *(Yao Saint, Yen Institute of Information Science, Academia Sinica, Taiwan)*
+  * `Machine Learning Aided Static Malware Analysis: A Survey and Tutorial <https://www.researchgate.net/publication/324702503_Machine_Learning_Aided_Static_Malware_Analysis_A_Survey_and_Tutorial>`_ *(Sergii Banin, Andrii Shalaginov, Ali Dehghantanha, Katrin Franke, Norway)*
+  * `Multinomial malware classification, research of the Department of Information Security and Communication Technology (NTNU) <https://www.sciencedirect.com/science/article/pii/S1742287618301956>`_ *(Sergii Banin and Geir Olav Dyrkolbotn, Norway)*
   * `SANS DFIR Poster 2016 <http://digital-forensics.sans.org/media/Poster_SIFT_REMnux_2016_FINAL.pdf>`_ *(PEframe was listed in the REMnux toolkits)*
   * `Tools for Analyzing Static Properties of Suspicious Files on Windows <http://digital-forensics.sans.org/blog/2014/03/04/tools-for-analyzing-static-properties-of-suspicious-files-on-windows>`_ *(SANS Digital Forensics and Incident Response, Lenny Zeltser).*
   * `Automated Static and Dynamic Analysis of Malware <http://www.cyberdefensemagazine.com/newsletters/august-2013/index.html#p=26>`_ *(Cyber Defence Magazine, Andrew Browne, Director Malware Lab Lavasoft).*
