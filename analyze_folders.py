@@ -6,7 +6,7 @@ from json import JSONDecodeError
 from multiprocessing import Pool, cpu_count, current_process
 import json
 
-from peframe import analyze
+from peframe.peframe import analyze
 
 LOGGER = logging.getLogger(__name__)
 logging.basicConfig(format='%(asctime)s %(message)s')
@@ -32,7 +32,7 @@ def analysis_to_json(arguments):
             dest = "/home/giuseppe/binaries/problematic_non_apt/"
         else:
             dest = "/home/giuseppe/binaries/problematic_apt/"
-        shutil.move(filename, dest)
+        shutil.move(filename, dest+os.path.basename(filename))
 
 
 def check_file(path):

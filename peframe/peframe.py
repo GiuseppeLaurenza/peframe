@@ -187,7 +187,7 @@ def analyze(filename):
         directories_dict = directories.get(pe)
         export_df = pd.DataFrame(directories_dict["export"])
         if not export_df.empty:
-            export_df["function"] = export_df["function"].apply(lambda x: x.decode("utf-8") if x else None)
+            export_df["function"] = export_df["function"].apply(lambda x: x.decode("utf-8") if not isinstance(x,str) else x)
 
         fileinfo.update({
             "import": directories_dict["import"],
